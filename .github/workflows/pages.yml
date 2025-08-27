@@ -23,6 +23,12 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm ci
+      # Rimuove le API server-side non supportate su GitHub Pages (static export)
+      - name: Remove API routes for Pages build
+        run: |
+          if [ -d "./app/api" ]; then
+            rm -rf ./app/api
+          fi
       - run: npm run build:pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
