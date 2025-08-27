@@ -20,8 +20,11 @@ export default function SiciliaTravelPage() {
               Viaggio in Sicilia - Siracusa e Dintorni
             </h1>
             <p className="text-sm md:text-lg text-amber-200">
-              Un itinerario indimenticabile di 4 giorni per 4 persone tra le meraviglie della Sicilia orientale
-            </p>
+  Un itinerario indimenticabile di 4 giorni per 4 persone tra le meraviglie della Sicilia orientale
+</p>
+<p className="text-sm md:text-lg text-amber-200">
+  Con Alfredo, Orietta, Luca, Elena
+</p>
           </div>
         </div>
       </header>
