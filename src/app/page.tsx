@@ -1093,7 +1093,7 @@ export default function SiciliaTravelPage() {
             Un'esperienza indimenticabile tra storia, mare e sapori autentici
           </p>
           <p className="text-xs md:text-sm text-zinc-300">
-            Per informazioni e prenotazioni: info@viaggiosicilia.it | +39 0931 123456
+            
           </p>
         </div>
       </footer>
