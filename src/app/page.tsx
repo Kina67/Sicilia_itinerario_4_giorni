@@ -115,11 +115,11 @@ export default function SiciliaTravelPage() {
                 <div className="space-y-6">
                   {/* Mattina */}
                   <Card className="border-l-4 border-amber-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno1-mattina.jpg" 
                         alt="Piazza Duomo Ortigia"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-amber-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Mattina
@@ -146,11 +146,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Pomeriggio - NUOVO: Neapolis */}
                   <Card className="border-l-4 border-orange-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno1-pomeriggio.jpg" 
                         alt="Parco Archeologico Neapolis"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Pomeriggio
@@ -193,11 +193,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Sera */}
                   <Card className="border-l-4 border-purple-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno1-sera.jpg" 
                         alt="Ristorante Ortigia"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Sera
@@ -251,11 +251,11 @@ export default function SiciliaTravelPage() {
                 <div className="space-y-6">
                   {/* Mattina */}
                   <Card className="border-l-4 border-amber-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno2-mattina.jpg" 
                         alt="Noto Barocca"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-amber-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Mattina
@@ -282,11 +282,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Pomeriggio */}
                   <Card className="border-l-4 border-orange-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno2-pomeriggio.jpg" 
                         alt="Spiaggia Fontane Bianche"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Pomeriggio
@@ -313,11 +313,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Sera */}
                   <Card className="border-l-4 border-purple-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno2-sera.jpg" 
                         alt="Ristorante Porto"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Sera
@@ -371,11 +371,11 @@ export default function SiciliaTravelPage() {
                 <div className="space-y-6">
                   {/* Mattina */}
                   <Card className="border-l-4 border-amber-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno3-mattina.jpg" 
                         alt="Teatro Greco Taormina"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-amber-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Mattina
@@ -402,11 +402,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Pomeriggio */}
                   <Card className="border-l-4 border-orange-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno3-pomeriggio.jpg" 
                         alt="Isola Bella"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Pomeriggio
@@ -433,11 +433,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Sera */}
                   <Card className="border-l-4 border-purple-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno3-sera.jpg" 
                         alt="Cena con Vista Taormina"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Sera
@@ -491,11 +491,11 @@ export default function SiciliaTravelPage() {
                 <div className="space-y-6">
                   {/* Mattina */}
                   <Card className="border-l-4 border-amber-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno4-mattina.jpg" 
                         alt="Marzamemi Borgo Marinaro"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-amber-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Mattina
@@ -522,11 +522,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Pomeriggio */}
                   <Card className="border-l-4 border-orange-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno4-pomeriggio.jpg" 
                         alt="Riserva Vendicari"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Pomeriggio
@@ -553,11 +553,11 @@ export default function SiciliaTravelPage() {
 
                   {/* Sera */}
                   <Card className="border-l-4 border-purple-500 overflow-hidden bg-slate-700/50">
-                    <div className="relative h-48 md:h-56">
+                    <div className="relative h-48 md:h-auto">
                       <img 
                         src="giorno4-sera.jpg" 
                         alt="Cena Marzamemi"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                       <div className="absolute top-2 right-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
                         Sera
@@ -615,7 +615,7 @@ export default function SiciliaTravelPage() {
                       <img 
                         src="pasta-sarde.jpg" 
                         alt="Pasta con le Sarde"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                     </div>
                     <CardContent className="p-4">
@@ -655,7 +655,7 @@ export default function SiciliaTravelPage() {
                       <img 
                         src="pasta-norma.jpg" 
                         alt="Pasta alla Norma"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                     </div>
                     <CardContent className="p-4">
@@ -695,7 +695,7 @@ export default function SiciliaTravelPage() {
                       <img 
                         src="cannoli-siciliani.jpg" 
                         alt="Cannoli Siciliani"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover md:h-auto md:object-contain md:bg-black md:mx-auto"
                       />
                     </div>
                     <CardContent className="p-4">
