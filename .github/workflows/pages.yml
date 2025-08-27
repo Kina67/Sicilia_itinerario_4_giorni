@@ -23,13 +23,18 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm ci
-      # Rimuove le API server-side non supportate su GitHub Pages (static export)
+
+      # 🔴 Rimuove eventuali API (non supportate con output:export su GitHub Pages)
       - name: Remove API routes for Pages build
         run: |
-          if [ -d "./app/api" ]; then
-            rm -rf ./app/api
-          fi
+          if [ -d "./app/api" ]; then rm -rf ./app/api; fi
+          if [ -d "./src/app/api" ]; then rm -rf ./src/app/api; fi
+          if [ -d "./pages/api" ]; then rm -rf ./pages/api; fi
+
+      # ✅ Build in modalità Pages (usa next.config.ts con output: 'export')
       - run: npm run build:pages
+
+      # 📦 Carica la cartella out/ generata da Next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
