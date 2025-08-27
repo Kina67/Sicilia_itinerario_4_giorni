@@ -595,7 +595,7 @@ export default function SiciliaTravelPage() {
           {/* Piatti Tipici */}
           <TabsContent value="food" className="space-y-4">
             <Card className="bg-slate-800/80 backdrop-blur-sm shadow-xl border-amber-500/20">
-              <CardHeader className="bg-gradient-to-r from-red-700 to-red-900 text-white">
+              <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-700 text-white">
                 <CardTitle className="text-xl md:text-2xl flex items-center gap-2">
                   <Utensils className="h-5 w-5 md:h-6 md:w-6" />
                   Piatti Tipici della Sicilia - Zona di Siracusa
