@@ -14,22 +14,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Viaggio in Sicilia - Siracusa e Dintorni",
+  description: "Itinerario di 4 giorni tra Siracusa, Noto, Taormina e Marzamemi con piatti tipici e consigli di viaggio.",
+  keywords: ["Sicilia", "Siracusa", "Noto", "Taormina", "Marzamemi", "Itinerario", "Viaggio"],
+  authors: [{ name: "Luca & Co." }],
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Viaggio in Sicilia - Siracusa e Dintorni",
+    description: "Scopri un itinerario indimenticabile di 4 giorni tra arte, mare e gastronomia siciliana.",
+    url: "https://kina67.github.io/Sicilia_itinerario_4_giorni/",
+    siteName: "Sicilia Itinerario 4 Giorni",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Viaggio in Sicilia - Siracusa e Dintorni",
+    description: "Scopri un itinerario indimenticabile di 4 giorni tra arte, mare e gastronomia siciliana.",
   },
+}
 };
 
 export default function RootLayout({
