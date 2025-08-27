@@ -17,13 +17,13 @@ export default function SiciliaTravelPage() {
         <div className="container mx-auto px-4 py-4">
           <div className="text-center">
             <h1 className="text-2xl md:text-4xl font-bold text-amber-400 mb-1">
-              Viaggio in Sicilia - Siracusa e Dintorni
-            </h1>
-            <p className="text-sm md:text-lg text-amber-200">
+  Viaggio in Sicilia - Siracusa e Dintorni
+</h1>
+<p className="text-sm md:text-lg text-amber-200">
   Un itinerario indimenticabile di 4 giorni per 4 persone tra le meraviglie della Sicilia orientale
 </p>
-<p className="text-sm md:text-lg text-amber-200">
-  Con Alfredo, Orietta, Luca, Elena
+<p className="text-base md:text-xl font-semibold text-fuchsia-500">
+  Alfredo, Orietta, Luca, Elena
 </p>
           </div>
         </div>
