@@ -1,5 +1,4 @@
-name: Deploy to GitHub Pages (Next.js export)
-
+name: Deploy Next.js (static export) to Pages
 on:
   push:
     branches: [ "main" ]
@@ -18,37 +17,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Use Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
-      # 👇 forza il registry pubblico npm
-      - name: Set npm registry
-        run: npm config set registry https://registry.npmjs.org/
-
-      # 👇 install più tollerante di "ci"
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build (Next.js static export -> out/)
-        run: npm run build
-
+          node-version: 20
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build:pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
