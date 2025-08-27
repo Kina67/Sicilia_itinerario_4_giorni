@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     description: "Scopri un itinerario indimenticabile di 4 giorni tra arte, mare e gastronomia siciliana.",
   },
 }
-};
 
 export default function RootLayout({
   children,
